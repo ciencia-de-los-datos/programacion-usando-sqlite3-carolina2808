@@ -40,7 +40,7 @@
 --  3  2019  550.998571
 --
 --  >>> Escriba su codigo a partir de este punto <<<
-SELECT YEAR(c23) AS YEAR, AVG(c21) AS avg(c21)
+SELECT YEAR(c23), AVG(c21)
 FROM tbl2
 GROUP BY YEAR(c23)
-ORDER BY YEAR;
+ORDER BY YEAR(c23);
